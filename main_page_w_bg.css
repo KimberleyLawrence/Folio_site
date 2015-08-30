@@ -1,4 +1,6 @@
 .handlettering_bg{
-  height: 500px;
+  height: 400px;
   width:100%;
+  display: center;
+  overflow: hidden;
 }
