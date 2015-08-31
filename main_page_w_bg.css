@@ -1,6 +1,6 @@
 .handlettering_bg{
-  height: 400px;
   width:100%;
-  display: center;
-  overflow: hidden;
+  height: 900px;
+  overflow: auto;
+  background: url("4-stars.jpg") center;
 }
