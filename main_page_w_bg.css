@@ -4,3 +4,7 @@
   overflow: auto;
   background: url("4-stars.jpg") center;
 }
+body{
+  padding: 0;
+  margin: 0;
+}
