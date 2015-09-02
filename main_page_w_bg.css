@@ -8,3 +8,15 @@ body{
   padding: 0;
   margin: 0;
 }
+.me_bg{
+  width:100%;
+  height: 1000px;
+  overflow: auto;
+  background: url("me.jpg") center;
+}
+.web_bg{
+  width:100%;
+  height: 1000px;
+  overflow: auto;
+  background: url("web.jpg") center;
+}
