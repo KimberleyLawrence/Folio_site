@@ -1,22 +1,165 @@
-.handlettering_bg{
-  width:100%;
-  height: 1000px;
-  overflow: auto;
-  background: url("4-stars.jpg") center;
+#handlettering{
+  background: url("hand.jpg") center;
 }
 body{
   padding: 0;
   margin: 0;
 }
-.me_bg{
+.background_img{
   width:100%;
-  height: 1000px;
+  height: 800px;
   overflow: auto;
-  background: url("me.jpg") center;
+  background-repeat: no-repeat;
+  z-index: -1;
 }
-.web_bg{
-  width:100%;
-  height: 1000px;
-  overflow: auto;
-  background: url("web.jpg") center;
+#me{
+  background: url("me_1.jpg") center;
+}
+#web{
+  background: url("web_1.jpg") center;
+}
+#cake{
+  background: url("cake_2.jpg")center ;
+}
+#illustration{
+  background: url("ill_2.jpg")center ;
+}
+#type{
+  background: url("type_new_2.jpg")center ;
+}
+#stationary{
+  background: url("station_2.jpg")center ;
+}
+.contact{
+  margin-right: 20px;
+  color: black;
+  text-align: right;
+  display: list-item;
+  z-index: 5;
+}
+.fa{
+  color:grey;
+}
+a{
+  text-decoration: none;
+}
+.header{
+   color: white;
+   font-family: smoothie shoppe, sans-serif;
+   font-size:5em;
+   text-align: right;
+   z-index: 6;
+   line-height: 1px;
+   margin-top: 520px;
+   letter-spacing: -3px;
+}
+.sub{
+  text-align: right;
+  font-size: 2em;
+  font-family: didot, sans-serif;
+  color: white;
+  z-index: 5;
+  line-height: inherit;
+}
+.sub_header{
+  font-family: didot, sans-serif;
+  z-index: 5;
+  font-size: 2em;
+}
+.intro{
+  font-family: didot, serif;
+  font-size: 1em;
+  color: white;
+  text-align: right;
+  z-index: 5;
+}
+.ill_head{
+   color: white;
+   font-family: smoothie shoppe, sans-serif;
+   font-size:4em;
+   text-align: center;
+   z-index: 6;
+   line-height: 5px;
+   margin-top: 420px;
+   letter-spacing: -2.75px;
+}
+.cake_head{
+   color: white;
+   font-family: smoothie shoppe, sans-serif;
+   font-size:4em;
+   text-align: center;
+   z-index: 6;
+   line-height: 5px;
+   margin-top: 300px;
+   letter-spacing: -2.75px;
+}
+.web_head{
+   color: #f493be;
+   font-family: smoothie shoppe, sans-serif;
+   font-size:4em;
+   text-align: center;
+   z-index: 6;
+   line-height: 5px;
+   margin-top: 240px;
+   letter-spacing: -2.75px;
+}
+.hand_head{
+   color: #f493be;
+   font-family: smoothie shoppe, sans-serif;
+   font-size:4em;
+   text-align: center;
+   z-index: 6;
+   line-height: 5px;
+   margin-top: 340px;
+   letter-spacing: -2.75px;
+}
+.type_head{
+   color: white;
+   font-family: smoothie shoppe, sans-serif;
+   font-size:4em;
+   text-align: center;
+   z-index: 6;
+   line-height: 5px;
+   margin-top: 500px;
+   letter-spacing: -2.75px;
+}
+.station_head{
+   color: white;
+   font-family: smoothie shoppe, sans-serif;
+   font-size:4em;
+   text-align: center;
+   z-index: 6;
+   line-height: 5px;
+   margin-top: 540px;
+   letter-spacing: -2.75px;
+}
+.sub_header{
+  font-family: didot, sans-serif;
+  z-index: 5;
+  font-size: 1.5em;
+  line-height: 10px;
+}
+.web_sub{
+  text-align: center;
+  color: grey;
+}
+.cake_sub{
+  text-align: center;
+  color: white;
+}
+.ill_sub{
+  text-align: center;
+  color: white;
+}
+.hand_sub{
+  text-align: center;
+  color: white;
+}
+.type_sub{
+  text-align: center;
+  color: white;
+}
+.station_sub{
+  text-align: center;
+  color: white;
 }
