@@ -1,4 +1,3 @@
-
 body{
   padding: 0;
   margin: 0;
@@ -11,36 +10,35 @@ body{
   z-index: -1;
 }
 #me{
-  background: url("me_bg.jpg") center;
+  background: url("/images/about_me_bg.jpg") center;
 }
 #web{
-  background: url("web_bg.jpg") center;
+  background: url("/images/web_bg.jpg") center;
 }
 #cake{
-  background: url("cake_bg.jpg")center ;
+  background: url("/images/cake_bg.jpg")center ;
 }
 #illustration{
-  background: url("illustration_bg.jpg")center ;
+  background: url("/images/illustration_bg.jpg")center ;
 }
 #type{
-  background: url("type_bg.jpg")center ;
+  background: url("/images/type_bg.jpg")center ;
 }
 #stationary{
-  background: url("stationary_bg.jpg")center ;
+  background: url("/images/stationary_bg.jpg")center ;
 }
 #handlettering{
-  background: url("hand_bg.jpg") center;
+  background: url("/images/hand_bg.jpg") center;
 }
 .contact{
-  margin-right: 20px;
-  color: black;
-  text-align: right;
-  display: list-item;
-  z-index: 5;
+  color:pink;
+  display: block;
+  position: fixed;
+  top:10px;
+  right: 10px;
 }
 .fa{
-  color:pink;
-  z-index: 5;
+  color:white;
 }
 a{
   text-decoration: none;
