@@ -1,6 +1,4 @@
-#handlettering{
-  background: url("hand.jpg") center;
-}
+
 body{
   padding: 0;
   margin: 0;
@@ -13,22 +11,25 @@ body{
   z-index: -1;
 }
 #me{
-  background: url("me_1.jpg") center;
+  background: url("me_bg.jpg") center;
 }
 #web{
-  background: url("web_1.jpg") center;
+  background: url("web_bg.jpg") center;
 }
 #cake{
-  background: url("cake_2.jpg")center ;
+  background: url("cake_bg.jpg")center ;
 }
 #illustration{
-  background: url("ill_2.jpg")center ;
+  background: url("illustration_bg.jpg")center ;
 }
 #type{
-  background: url("type_new_2.jpg")center ;
+  background: url("type_bg.jpg")center ;
 }
 #stationary{
-  background: url("station_2.jpg")center ;
+  background: url("stationary_bg.jpg")center ;
+}
+#handlettering{
+  background: url("hand_bg.jpg") center;
 }
 .contact{
   margin-right: 20px;
