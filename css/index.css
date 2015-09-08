@@ -1,78 +1,3 @@
-.box{
-	/*-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow:0px 0px 5px #444444;
-	-webkit-box-shadow:0px 0px 5px #444444;
-	box-shadow:0px 0px 5px #444444;
-  height: 100%;
-  z-index: 99;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  display: none;
-  background-color: white;
-  opacity: 0.5;*/
-}
-/*.backdrop{
-  position:relative;
-  width:100%;
-  height:100%;
-  background:#000;
-  opacity: .0;
-  filter:alpha(opacity=0);
-  z-index:40;
-  display:block;
-}*/
-
-
-/*.fade{
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  z-index: 2;
-}
-.gallery{
-  height:560px;
-  width: 700px;
-  border-radius: 5px;
-  margin: auto;
-}
-.thumbnails img {
-  	height: 70px;
-  	margin: 0;
-  }
-
-.thumbnails img:hover {
-  	cursor:pointer;
-}
-.preview img {
-  border-radius: 5px;
-	padding: 1px;
-  height:400px;
-  overflow: auto;
-}
-.preview{
-  overflow: hidden;
-}
-
-#caption{
-  font-family: didot, sans-serif;
-  font-size: 1em;
-  color: #404040;
-  text-align: center;
-  z-index: 5;
-}
-*/
-body{
-  height: 100%;
-  margin: 0,0,0,0;
-  padding: 0;
-}
 @font-face {
 font-family: 'Smoothie shoppe';
 src: url("/font/Smoothie Shoppe.ttf");
@@ -81,132 +6,146 @@ src: url("/font/Smoothie Shoppe.ttf");
 font-family: 'Didot';
 src: url("/font/Didot.ttf");
 }
-.fullscreenbackground{
-  /*width:100%;
-  height: 800px;*/
-  margin: 0;
-  padding: 0;
-  min-height: 100%;
-  width: 100%;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: 100% auto;
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
-.fullscreenbackground_me{
-  background-image: url("/images/about_me_bg.jpg");
+.contact {
+    display: block;
+    position: fixed;
+    top:10px;
+    right: 10px;
+    z-index: 99;
 }
-.fullscreenbackground_web{
-  background-image: url("/images/web_bg.jpg");
+.contact a {
+    text-decoration: none;
+    color: white;
 }
-.fullscreenbackground_cake{
-  background-image: url("/images/cake_bg.jpg");
+.fullscreenbackground-me{
+    background-image: url("http://kimberleylawrence.github.io/images/about_me_bg.jpg");
 }
-.fullscreenbackground_illustration{
-  background-image: url("/images/illustration_bg.jpg");
+.fullscreenbackground-web{
+    background-image: url("http://kimberleylawrence.github.io/images/web_bg.jpg");
 }
-.fullscreenbackground_type{
-  background-image: url("/images/type_bg.jpg");
+.fullscreenbackground-cake{
+    background-image: url("http://kimberleylawrence.github.io/images/cake_bg.jpg") ;
 }
-.fullscreenbackground_stationary{
-  background-image: url("/images/stationary_bg.jpg");
+.fullscreenbackground-illustration{
+    background-image: url("http://kimberleylawrence.github.io/images/illustration_bg.jpg") ;
 }
-.fullscreenbackground_handlettering{
-  background-image: url("/images/hand_bg.jpg");
+.fullscreenbackground-type{
+    background-image: url("http://kimberleylawrence.github.io/images/type_bg.jpg") ;
 }
-.contact{
-  color:pink;
-  display: block;
-  position: fixed;
-  top:10px;
-  right: 10px;
+.fullscreenbackground-stationary{
+    background-image: url("http://kimberleylawrence.github.io/images/stationary_bg.jpg") ;
 }
-.fa{
-  color:white;
+.fullscreenbackground-handlettering{
+    background-image: url("http://kimberleylawrence.github.io/images/hand_bg.jpg");
 }
-a{
-  text-decoration: none;
-}
-
-.intro{
-  font-family: Didot, serif;
-  font-size: 1em;
-  color: white;
-  text-align: right;
-  z-index: 5;
+.fullscreenbackground {
+    min-height: 100%;
+    width: 100%;
+    min-height: 100%;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size:cover;
 }
 
 .header{
-   font-family: smoothie shoppe, sans-serif;
-   font-size:5em;
-   text-align: center;
-   z-index: 6;
-   line-height: 1px;
-   letter-spacing: -3px;
+    width: 100%;
+    bottom: 20%;
+    background-image: inherit;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size:cover;
+    overflow: hidden;
+    z-index: 99;
+    font-family: smoothie shoppe;
+    letter-spacing: -3px;
 }
-.header_me{
-  color:pink;
-  margin-top: 400px;
+.subtitle {
+    font-family: didot;
+    line-height: .25;
 }
-.header_ill{
-   color: white;
-   margin-top: 400px;
-}
-.header_cake{
-  margin-top: 300px;
-  color: white;
-}
-.header_web{
-  color: #f493be;
-  margin-top: 240px;
-}
-.header_hand{
-   color: #f493be;
-   margin-top: 340px;
-}
-.header_type{
-  color: white;
-  margin-top: 500px;
-}
-.header_station{
-  color: white;
-  margin-top: 540px;
-}
-.sub_header{
-  font-family: Didot, sans-serif;
-  z-index: 5;
-  font-size: 1.5em;
-  line-height: 10px;
-}
-.sub_header_me{
+.header-me {
+  color: pink;
   text-align: right;
-  font-size: 2em;
-  font-family: Didot, sans-serif;
-  color: white;
-  z-index: 5;
+  padding-top: 440px;
+  font-size: 5.2em;
 }
-.sub_header_web{
-  text-align: center;
-  color: grey;
-}
-.sub_header_cake{
-  text-align: center;
-  color: white;
-}
-.sub_header_ill{
-  text-align: center;
-  color: white;
-}
-.sub_header_hand{
-  text-align: center;
-  color: white;
-}
-.sub_header_type{
-  text-align: center;
-  color: white;
-}
-.sub_header_station{
-  text-align: center;
-  color: white;
-}
+ .subtitle-me{
+   color: white;
+   text-align: right;
+   font-size: 2.5em;
+ }
+ .header-illustration {
+   color: white;
+   text-align: center;
+   padding-top: 300px;
+   font-size: 4em;
+ }
+ .subtitle-illustration{
+   color: pink;
+   text-align: center;
+   font-size: 1.2em;
+ }
+ .header-cake {
+   color: pink;
+   text-align: center;
+   padding-top: 200px;
+   font-size: 4em;
+ }
+  .subtitle-cake{
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .header-web {
+    color: grey;
+    text-align: center;
+    padding-top: 170px;
+    font-size: 4em;
+  }
+   .subtitle-web{
+     color: white;
+     text-align: center;
+     font-size: 1.2em;
+   }
+   .header-hand {
+     color: white;
+     text-align: center;
+     padding-top: 300px;
+     font-size: 4em;
+   }
+    .subtitle-hand{
+      color: pink;
+      text-align: center;
+      font-size: 1.2em;
+    }
+    .header-type {
+      color: white;
+      text-align: center;
+      padding-top: 430px;
+      font-size: 4em;
+    }
+     .subtitle-type{
+       color: darkgrey;
+       text-align: center;
+       font-size: 1.2em;
+     }
+     .header-station{
+       color: pink;
+       text-align: center;
+       padding-top: 430px;
+       font-size: 4em;
+     }
+      .subtitle-station{
+        color: white;
+        text-align: center;
+        font-size: 1.2em;
+      }
