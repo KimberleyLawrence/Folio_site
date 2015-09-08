@@ -2,11 +2,14 @@
 <html>
   <head>
     <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
   </head>
   <body>
-    <div class="background_img" id="me">
+    <div class="fullscreenbackground fullscreenbackground_me">
       <div class="contact">
         <a href="#">
           <i class="fa fa-2x fa-envelope-o"></i>
@@ -24,48 +27,45 @@
           <i class="fa fa-2x fa-deviantart"></i>
         </a>
       </div>
-      <div class="header">
+      <div class="header header_me">
         Kimberley Lawrence
       </div>
-        <p class="sub"> Online Portfolio </p>
-        <p class="intro"> A lover of graphic design, hand lettering, cake decoration and all things quirky and crafty.  </p>
+        <div class="sub_header_me"> Online Portfolio </div>
+        <div class="intro"> A lover of graphic design, hand lettering, cake decoration and all things quirky and crafty.  </div>
     </div>
-    <div class="background_img" id="illustration">
-      <a href="#">
-        <p class="ill_head"> Illustration </p>
-        <p class="ill_sub sub_header">Using Adobe Illustrator and hand painted</p>
-      </a>
+    <div class="fullscreenbackground fullscreenbackground_illustration">
+      <!-- the 'a name' is an anchor, to make sure that the lightbox only appears on the screen where the link was clicked-->
+      <div class="header header_ill"> Illustration </div>
     </div>
-    <div class="background_img" id="cake">
+    <div class="fullscreenbackground fullscreenbackground_cake">
       <a href="test.html">
-        <p class="cake_head"> Cake & Craft </p>
-        <p class="cake_sub sub_header"> Art, craft and cake decoration</p>
+        <div class="header header_cake"> Cake & Craft </div>
+        <div class="sub_header sub_header_cake"> Art, craft and cake decoration</div>
       </a>
     </div>
-    <div class="background_img" id="web">
+    <div class="fullscreenbackground fullscreenbackground_web">
       <a href="#">
-        <p class="web_head"> Websites & Code</p>
-        <p class="web_sub sub_header"> Github, HTML, CSS</p>
+        <div class="header header_web"> Websites & Code</div>
+        <div class="sub_header sub_header_web"> Github, HTML, CSS</div>
       </a>
     </div>
-    <div class="background_img" id="handlettering">
+    <div class="fullscreenbackground fullscreenbackground_handlettering">
       <a href="#">
-        <p class="hand_head"> Hand Lettering </p>
-        <p class="hand_sub sub_header"> With Ink, nibs, and brushes</p>
+        <div class="header header_hand"> Hand Lettering </div>
+        <div class="sub_header sub_header_hand"> With Ink, nibs, and brushes</div>
       </a>
     </div>
-    <div class="background_img" id="type">
+    <div class="fullscreenbackground fullscreenbackground_type">
       <a href="#">
-        <p class="type_head"> Typography</p>
-        <p class="type_sub sub_header"> Using Adobe InDesign</p>
+        <div class="header header_type"> Typography</div>
+        <div class="sub_header sub_header_type"> Using Adobe InDesign</div>
       </a>
     </div>
-    <div class="background_img" id="stationary">
+    <div class="fullscreenbackground fullscreenbackground_stationary">
       <a href="#">
-        <p class="station_head"> Stationary</p>
-        <p class="station_sub sub_header"> Invitations and event stationary</p>
+        <div class="header header_stationary"> Stationary</div>
+        <div class="sub_header sub_header_station"> Invitations and event stationary</div>
       </a>
     </div>
-
   </body>
 </html>
