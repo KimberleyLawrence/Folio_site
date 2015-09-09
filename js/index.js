@@ -1,15 +1,10 @@
-   $(document).ready(function(){
-
-    $('.lightbox').click(function(){
-     $('.box').toggle();
-   });
-
-   $('.close').click(function(){
-     $('.box').toggle();
-   });
-
-   $('.backdrop').click(function(){
-     $('.box').toggle();
-   });
-
- });
+$(document).ready(function(){
+  $('.lightbox').click(function(){
+    $('.backdrop, .box').toggle(true);
+});
+$('.close').click(function(){
+  $('.backdrop, .box').toggle(false);
+  });
+//  $('.backdrop').click(function(){
+  //  $('.backdrop, .box').toggle(false);
+});
