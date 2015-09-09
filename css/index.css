@@ -73,7 +73,7 @@ body, html {
     line-height: .25;
 }
 .header-me {
-  color: pink;
+  color: hsla(330, 65%, 73%,1);
   text-align: right;
   padding-top: 440px;
   font-size: 5.2em;
