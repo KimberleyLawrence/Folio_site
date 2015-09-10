@@ -3,9 +3,10 @@
     <head>
       <title> Kimberley Lawrence </title>
       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+			<script type="text/javascript" src="/bower_components/jquery_lazyload/jquery.lazyload.js"></script>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
       <link rel="stylesheet" href="/css/index.css" />
-      <script type="text/javascript" src="/js/index.js"></script>
+      <script type="text/javascript" src="/js/lightbox_index.js"></script>
     </head>
     <body>
     <!--  -->
@@ -45,18 +46,18 @@
   				<div class="gallery" align="center">
   		      <div class="preview" align="center">
   		        <div id="caption">Hover over images for descriptions </div>
-  		         <img name="preview" src="http://www.marketsforgood.org/wp-content/uploads/2015/08/LOVE-love-36983825-1680-1050.jpg" alt=""/>
+  		         <img class="lazy" name="preview" data-original="http://www.marketsforgood.org/wp-content/uploads/2015/08/LOVE-love-36983825-1680-1050.jpg" alt=""/>
 
   		      </div>
   		      <div class="thumbnails">
-  			      <img onclick="preview.src=img1.src; caption.innerHTML=img1.alt" name="img1" src="http://www.marketsforgood.org/wp-content/uploads/2015/08/LOVE-love-36983825-1680-1050.jpg" alt="image1" />
-  		        <img onclick="preview.src=img2.src; caption.innerHTML=img2.alt" name="img2" src="http://filedelumina.ro/wp-content/uploads//2015/07/inimi.jpg" alt="image2"/>
-  		        <img onclick="preview.src=img3.src; caption.innerHTML=img3.alt" name="img3" src="http://www.npg.si.edu/exhibit/feature/images/schoeller_full.jpg" alt="image3"/>
+              <img class="lazy" onclick="preview.src=img1.src; caption.innerHTML=img1.alt" name="img1" data-original="http://www.marketsforgood.org/wp-content/uploads/2015/08/LOVE-love-36983825-1680-1050.jpg" alt="image1" />
+  		        <img class="lazy" onclick="preview.src=img2.src; caption.innerHTML=img2.alt" name="img2" data-original="http://filedelumina.ro/wp-content/uploads//2015/07/inimi.jpg" alt="image2"/>
+  		        <img class="lazy" onclick="preview.src=img3.src; caption.innerHTML=img3.alt" name="img3" data-original="http://www.npg.si.edu/exhibit/feature/images/schoeller_full.jpg" alt="image3"/>
   		      </div>
   		    </div>
   			</div>
   		</div>
-    </div>
+      </div>
     <!--  -->
     <div class="fullscreenbackground fullscreenbackground-cake">
         <div class="header header-cake">Cake and Crafts</div>

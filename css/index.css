@@ -187,7 +187,7 @@ body, html {
   font-size: 2em;
 }
 .box{
-  position:absolute;
+
   margin-top: 5%;
   margin-left: 15%;
   width:70%;
@@ -203,7 +203,7 @@ body, html {
   display:none;
 }
 .backdrop{
-  position:absolute;
+
   top:0;
   left:0;
   width:100%;

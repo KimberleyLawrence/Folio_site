@@ -2,9 +2,12 @@
 <html>
 	<head>
 		<title>Jigs box</title>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+			<script type="text/javascript" src="/bower_components/jquery_lazyload/jquery.lazyload.js"></script>
+		  <script type="text/javascript" src="lightbox.js"></script>
+
+
 		<link rel="stylesheet" style="text/css" href="/css/lightbox.css"/>
-		<script type="text/javascript" src="lightbox.js"></script>
 
 	</head>
 	<body>
@@ -12,7 +15,8 @@
 		<div class="center">
 			<h1>This is my webpage...</h1>
 			<p>some added text<p>
-		<a href="#" class="lightbox">Open Lightbox</a>
+			<a href="#" class="lightbox">Open Lightbox</a>
+		</div>
 		</div>
 		<div class="backdrop">
 			<div class="box">
@@ -21,13 +25,13 @@
 				<div class="gallery" align="center">
 		      <div class="preview" align="center">
 		        <div id="caption">Hover over images for descriptions </div>
-		         <img name="preview" src="http://www.marketsforgood.org/wp-content/uploads/2015/08/LOVE-love-36983825-1680-1050.jpg" alt=""/>
+		         <img class="lazy" name="preview" data-original="http://www.marketsforgood.org/wp-content/uploads/2015/08/LOVE-love-36983825-1680-1050.jpg" alt=""/>
 
 		      </div>
 		      <div class="thumbnails">
-			      <img onclick="preview.src=img1.src; caption.innerHTML=img1.alt" name="img1" src="http://www.marketsforgood.org/wp-content/uploads/2015/08/LOVE-love-36983825-1680-1050.jpg" alt="image1" />
-		        <img onclick="preview.src=img2.src; caption.innerHTML=img2.alt" name="img2" src="http://filedelumina.ro/wp-content/uploads//2015/07/inimi.jpg" alt="image2"/>
-		        <img onclick="preview.src=img3.src; caption.innerHTML=img3.alt" name="img3" src="http://www.npg.si.edu/exhibit/feature/images/schoeller_full.jpg" alt="image3"/>
+			      <img class="lazy" onclick="preview.src=img1.src; caption.innerHTML=img1.alt" name="img1" data-original="http://www.marketsforgood.org/wp-content/uploads/2015/08/LOVE-love-36983825-1680-1050.jpg" alt="image1" />
+		        <img class="lazy" onclick="preview.src=img2.src; caption.innerHTML=img2.alt" name="img2" data-original="http://filedelumina.ro/wp-content/uploads//2015/07/inimi.jpg" alt="image2"/>
+		        <img class="lazy" onclick="preview.src=img3.src; caption.innerHTML=img3.alt" name="img3" data-original="http://www.npg.si.edu/exhibit/feature/images/schoeller_full.jpg" alt="image3"/>
 		      </div>
 		    </div>
 			</div>
