@@ -46,19 +46,18 @@ body, html {
 .fullscreenbackground {
   min-height: 100%;
   width: 100%;
-  min-height: 100%;
-  width: 100%;
   text-align: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size:cover;
+  position: relative;
 }
 
 .header{
   width: 100%;
   bottom: 20%;
-  background-image: inherit;
+  /*background-image: inherit;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -181,13 +180,13 @@ body, html {
   text-align: center;
   z-index: 5;
 }
-.title{
+.lightbox_title{
   text-align: center;
-  font-family: cursive;
+  font-family: smoothie shoppe;
   font-size: 2em;
 }
 .box{
-
+  position: absolute;
   margin-top: 5%;
   margin-left: 15%;
   width:70%;
@@ -197,19 +196,21 @@ body, html {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  -moz-box-shadow:0px 0px 5px #444444;
-  -webkit-box-shadow:0px 0px 5px #444444;
-  box-shadow:0px 0px 5px #444444;
+  -moz-box-shadow:0px, 0px, 5px, #444444;
+  -webkit-box-shadow:0px, 0px, 5px, #444444;
+  box-shadow:0px, 0px, 5px, #444444;
   display:none;
+  z-index: 99;
 }
 .backdrop{
-
+  position: absolute;
   top:0;
   left:0;
   width:100%;
   min-height:100%;
   background: hsla(000, 0%, 50%, .5);
   display:none;
+  z-index: 90;
 
 }
 .center {
