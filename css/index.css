@@ -23,25 +23,25 @@ body, html {
   color: white;
 }
 .fullscreenbackground-me{
-  background-image: url("http://kimberleylawrence.github.io/images/about_me_bg.jpg");
+  background-image: url("/images/about_me_bg_for_web.jpg");
 }
 .fullscreenbackground-web{
-  background-image: url("http://kimberleylawrence.github.io/images/web_bg.jpg");
+  background-image: url("/images/web_bg_for_web.jpg");
 }
 .fullscreenbackground-cake{
-  background-image: url("http://kimberleylawrence.github.io/images/cake_bg.jpg") ;
+  background-image: url("/images/cake_bg_for_web.jpg") ;
 }
 .fullscreenbackground-illustration{
-  background-image: url("http://kimberleylawrence.github.io/images/illustration_bg.jpg") ;
+  background-image: url("/images/illustration_bg_for_web.jpg") ;
 }
 .fullscreenbackground-type{
-  background-image: url("http://kimberleylawrence.github.io/images/type_bg.jpg") ;
+  background-image: url("/images/type_bg_for_web.jpg") ;
 }
 .fullscreenbackground-stationary{
-  background-image: url("http://kimberleylawrence.github.io/images/stationary_bg.jpg") ;
+  background-image: url("/images/stationary_bg_for_web.jpg") ;
 }
 .fullscreenbackground-handlettering{
-  background-image: url("http://kimberleylawrence.github.io/images/hand_bg.jpg");
+  background-image: url("/images/hand_bg_for_web.jpg");
 }
 .fullscreenbackground {
   min-height: 100%;
