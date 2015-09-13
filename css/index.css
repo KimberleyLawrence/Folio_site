@@ -66,87 +66,89 @@ body, html {
   z-index: 99;
   font-family: smoothie shoppe;
   letter-spacing: -3px;
+  font-size: 4.5em;
+  color: white;
 }
 .subtitle {
   font-family: didot;
   line-height: .25;
+  font-size: 2.7em;
+  color: white;
 }
 .header-me {
-  color: hsla(330, 65%, 73%,1);
+
   text-align: center;
-  padding-top: 240px;
+  padding-top: 340px;
   font-size: 5.2em;
 }
 .subtitle-me{
-  color: white;
   text-align: center;
-  font-size: 2.5em;
+
 }
 .header-illustration {
-  color: white;
   text-align: center;
   padding-top: 300px;
-  font-size: 4em;
+
 }
 .subtitle-illustration{
-  color: pink;
+
   text-align: center;
-  font-size: 1.2em;
+
 }
 .header-cake {
-  color: pink;
+
   text-align: center;
   padding-top: 200px;
-  font-size: 4em;
+
 }
 .subtitle-cake{
-  color: white;
+
   text-align: center;
-  font-size: 1.2em;
+
 }
 .header-web {
-  color: grey;
+
   text-align: center;
   padding-top: 170px;
-  font-size: 4em;
+
 }
 .subtitle-web{
-  color: white;
+
   text-align: center;
-  font-size: 1.2em;
+
 }
 .header-hand {
-  color: white;
+
   text-align: center;
-  padding-top: 300px;
-  font-size: 4em;
+  padding-top: 250px;
+
 }
 .subtitle-hand{
-  color: pink;
+
   text-align: center;
-  font-size: 1.2em;
+
 }
 .header-type {
-  color: white;
+
   text-align: center;
-  padding-top: 430px;
-  font-size: 4em;
+  padding-top: 410px;
+
 }
 .subtitle-type{
-  color: darkgrey;
+
   text-align: center;
-  font-size: 1.2em;
+
 }
 .header-station{
-  color: pink;
+
   text-align: center;
   padding-top: 430px;
-  font-size: 4em;
+
 }
 .subtitle-station{
-  color: white;
+
   text-align: center;
-  font-size: 1.2em;
+
 }
 .thumbnails img {
 	height: 70px;
@@ -208,7 +210,7 @@ body, html {
   left:0;
   width:100%;
   min-height:100%;
-  background: hsla(000, 0%, 50%, .5);
+  background: hsla(000, 0%, 80%, .5);
   display:none;
   z-index: 90;
 
