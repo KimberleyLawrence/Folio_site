@@ -73,13 +73,13 @@ body, html {
 }
 .header-me {
   color: hsla(330, 65%, 73%,1);
-  text-align: right;
-  padding-top: 440px;
+  text-align: center;
+  padding-top: 240px;
   font-size: 5.2em;
 }
 .subtitle-me{
   color: white;
-  text-align: right;
+  text-align: center;
   font-size: 2.5em;
 }
 .header-illustration {
