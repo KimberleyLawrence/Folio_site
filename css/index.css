@@ -171,6 +171,7 @@ body, html {
 	padding: 1px;
   height:480px;
   overflow: auto;
+  max-width: 90%;
 }
 .preview{
   overflow: hidden;
