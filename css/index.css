@@ -187,6 +187,8 @@ body, html {
   text-align: center;
   font-family: smoothie shoppe;
   font-size: 2em;
+  letter-spacing: -2px;
+  color: pink;
 }
 .box{
   position: absolute;
@@ -228,4 +230,9 @@ body, html {
 }
 a{
   text-decoration: none;
+}
+alt{
+  font-size: 1em;
+  color: grey;
+  text-align: center;
 }
