@@ -158,6 +158,11 @@ body, html {
 .thumbnails img:hover {
 	cursor:pointer;
 }
+.thumbnails{
+  font-family: Didot;
+  color: grey;
+  font-size: 1em,
+}
 .gallery{
 
 
@@ -230,9 +235,4 @@ body, html {
 }
 a{
   text-decoration: none;
-}
-.lazy alt{
-  font-size: 1em;
-  color: grey;
-  text-align: center;
 }
