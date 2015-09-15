@@ -231,7 +231,7 @@ body, html {
 a{
   text-decoration: none;
 }
-alt{
+.lazy alt{
   font-size: 1em;
   color: grey;
   text-align: center;
