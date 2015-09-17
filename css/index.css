@@ -173,9 +173,9 @@ body, html {
 	/*border: 4px solid #404040;*/
   border-radius: 5px;
 	padding: 1px;
-  height:480px;
+  height:460px;
   overflow: auto;
-  max-width: 90%;
+  max-width: 80%;
 }
 .preview{
   overflow: hidden;
