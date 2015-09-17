@@ -11,6 +11,13 @@ body, html {
   margin: 0;
   padding: 0;
 }
+img{
+  font-family: Didot;
+  color: grey;
+  font-size: 1em;
+  text-align: center;
+
+}
 .contact {
   display: block;
   position: fixed;
@@ -235,11 +242,4 @@ body, html {
 }
 a{
   text-decoration: none;
-}
-img:alt{
-  font-family: Didot;
-  color: grey;
-  font-size: 1em;
-  text-align: center;
-
 }
