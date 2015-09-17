@@ -175,7 +175,7 @@ body, html {
 	padding: 1px;
   height:460px;
   overflow: auto;
-  max-width: 80%;
+  max-width: 90%;
 }
 .preview{
   overflow: hidden;
@@ -198,7 +198,7 @@ body, html {
   position: absolute;
   margin-top: 5%;
   margin-left: 15%;
-  width:70%;
+  width:60%;
   height:580px;
   background: hsla(69, 0%, 100%, 1);
   padding:10px;
