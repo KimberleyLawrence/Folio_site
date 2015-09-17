@@ -236,9 +236,10 @@ body, html {
 a{
   text-decoration: none;
 }
-img::alt{
+img:alt{
   font-family: Didot;
   color: grey;
   font-size: 1em;
+  text-align: center;
 
 }
