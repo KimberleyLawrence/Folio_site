@@ -236,3 +236,8 @@ body, html {
 a{
   text-decoration: none;
 }
+.lazy{
+  font-family: Didot;
+  font-size:1em;
+  color: grey;
+}
