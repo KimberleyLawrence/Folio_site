@@ -236,7 +236,7 @@ body, html {
 a{
   text-decoration: none;
 }
-.lazy{
+#handlettering_caption{
   font-family: Didot;
   font-size:1em;
   color: grey;
