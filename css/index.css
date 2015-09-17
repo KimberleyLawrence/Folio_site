@@ -235,7 +235,7 @@ body, html {
 }
 
 .close{
-  float:right;
+  float:left;
   margin-right:6px;
   cursor:pointer;
   font-family: smoothie shoppe;
