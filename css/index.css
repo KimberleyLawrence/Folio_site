@@ -236,3 +236,9 @@ body, html {
 a{
   text-decoration: none;
 }
+.lazy:alt{
+  font-family: Didot;
+  color: grey;
+  font-size: 1em;
+
+}
