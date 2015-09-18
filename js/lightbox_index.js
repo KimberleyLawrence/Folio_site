@@ -15,6 +15,7 @@
     var backdrop_lookup = '.backdrop[data-id="' + $(this).attr("data-id") + '"]';
     console.log(backdrop_lookup);
     $(backdrop_lookup).show();
+    ga('send', 'event', 'lightbox', $(this).attr("data-id"));
   });
   // pretty much the same as above, but this time the box and backdrop close when the ".close" class is clicked.
   $('.close').click(function(){
