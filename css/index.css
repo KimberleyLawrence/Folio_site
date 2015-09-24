@@ -29,6 +29,9 @@ body, html {
 .fullscreenbackground-web{
   background-image: url("/images/web_bg_for_web.jpg");
 }
+.fullscreenbackground-project{
+  background-image: url("/images/project_2_bg_for_web.jpg");
+}
 .fullscreenbackground-cake{
   background-image: url("/images/cake_bg_for_web.jpg") ;
 }
@@ -68,87 +71,72 @@ body, html {
   font-family: smoothie shoppe;
   letter-spacing: -3px;
   font-size: 4.5em;
-  color: white;
+  color:white;
 }
 .subtitle {
   font-family: didot;
   font-size: 2em;
-  color: white;
+  color:#FFAEB9	;
 }
 .header-me {
-
   text-align: center;
   padding-top: 340px;
   font-size: 5.2em;
 }
 .subtitle-me{
   text-align: center;
-
 }
 .header-illustration {
   text-align: center;
   padding-top: 300px;
-
 }
 .subtitle-illustration{
-
   text-align: center;
-
-}
-.header-cake {
-
-  text-align: center;
-  padding-top: 200px;
-
-}
-.subtitle-cake{
-
-  text-align: center;
-
 }
 .header-web {
-
   text-align: center;
   padding-top: 170px;
-
 }
 .subtitle-web{
-
   text-align: center;
-
-}
-.header-hand {
-
-  text-align: center;
-  padding-top: 250px;
-
-}
-.subtitle-hand{
-
-  text-align: center;
-
 }
 .header-type {
-
   text-align: center;
   padding-top: 410px;
-
+  color: white;
 }
 .subtitle-type{
-
   text-align: center;
-
 }
-.header-station{
+.header-cake {
+  text-align: center;
+  padding-top: 200px;
+}
+.subtitle-cake{
+  text-align: center;
+}
 
+.header-hand {
+  text-align: center;
+  padding-top: 250px;
+}
+.subtitle-hand{
+  text-align: center;
+}
+
+.header-station{
   text-align: center;
   padding-top: 430px;
-
 }
 .subtitle-station{
-
   text-align: center;
-
+}
+.header-project{
+  text-align: center;
+  padding-top: 370px;
+}
+.subtitle-project{
+  text-align: center;
 }
 .thumbnails img {
 	height: 50px;
