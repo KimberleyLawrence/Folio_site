@@ -76,15 +76,16 @@ body, html {
 .subtitle {
   font-family: didot;
   font-size: 2em;
-  color:#CD6090;
+
 }
 .header-me {
   text-align: center;
-  padding-top: 340px;
+  padding-top: 200px;
   font-size: 5.2em;
 }
 .subtitle-me{
   text-align: center;
+  color:#cc0066;
 }
 .header-illustration {
   text-align: center;
@@ -92,6 +93,7 @@ body, html {
 }
 .subtitle-illustration{
   text-align: center;
+  color:#cc0066;
 }
 .header-web {
   text-align: center;
@@ -99,6 +101,7 @@ body, html {
 }
 .subtitle-web{
   text-align: center;
+  color:#cc0066;
 }
 .header-type {
   text-align: center;
@@ -107,21 +110,24 @@ body, html {
 }
 .subtitle-type{
   text-align: center;
+  color:#cc0066;
 }
 .header-cake {
   text-align: center;
-  padding-top: 200px;
+  padding-top: 170px;
 }
 .subtitle-cake{
   text-align: center;
+  color: #cc0066;
 }
 
 .header-hand {
   text-align: center;
-  padding-top: 250px;
+  padding-top: 350px;
 }
 .subtitle-hand{
   text-align: center;
+  color:#cc0066;
 }
 
 .header-station{
@@ -130,6 +136,7 @@ body, html {
 }
 .subtitle-station{
   text-align: center;
+  color:#cc0066;
 }
 .header-project{
   text-align: center;
@@ -137,6 +144,7 @@ body, html {
 }
 .subtitle-project{
   text-align: center;
+  color:#cc0066;
 }
 .thumbnails img {
 	height: 50px;
@@ -148,7 +156,7 @@ body, html {
 }
 .illustration_caption{
   font-family: Didot;
-  color: grey;
+  color: #CD6090;
   font-size: 1em;
 }
 .gallery{
@@ -181,7 +189,7 @@ body, html {
   font-family: smoothie shoppe;
   font-size: 2.5em;
   letter-spacing: -2px;
-  color: pink;
+  color: #cc0066;
 }
 .box{
   position: absolute;
